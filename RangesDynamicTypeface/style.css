@@ -1,13 +1,22 @@
 h1{
-	font-family: "Verdana";
+	font-family: Palatino;
+	font-size: 30px;
+	margin-bottom: -15px;
+	margin-top: 50px;
+	margin-left: 90px;
 }
 
 p{
-	left: 15px;
-	width: 520px;
-	font-size: 16px;
-	line-height: 20px;
-	font-family: "Verdana";
+	width: 603px;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Verdana;
+	margin-left: 90px;
+}
+
+.all{
+	transform: scale(.85);
+	margin-left: -100px;
 }
 
 .rbox{
@@ -17,16 +26,18 @@ p{
 	width: 250px;
 	height: 250px;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.75s ease-out;
 }
 
 .r2{
 	position: absolute;
 	width: 115px;
-	height: 100px;
-	top: 75px;
+	height: 80px;
+	top: 85px;
 	left: 95px;
-	background-color: rgb(0, 190, 250);
+	background-color: rgb(190, 70, 30);
 	border-radius: 50%;
+	transition: all 0.75s ease-out;
 }
 
 .r3{
@@ -36,6 +47,7 @@ p{
 	top: 75px;
 	left: 80px;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.75s ease-out;
 }
 
 .r4{
@@ -46,8 +58,56 @@ p{
 	height: 0;
 	border-top: 80px solid transparent;
 	border-bottom: 0px solid transparent;
-	border-left: 80px solid rgb(0, 190, 250);
+	border-left: 80px solid rgb(190, 70, 30);
+	transition: all 0.75s ease-out;
 
+}
+
+.r5{
+	position: absolute;
+	top: 220px;
+	left: 14px;
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.r6{
+	position: absolute;
+	top: 50px;
+	left: 14px;
+	width: 0;
+	height: 0;
+	border-right: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.rbig:hover .whole{
+	margin-top: -50px;
+	transform: rotate(360deg);
+}
+
+.rbig:hover .outshapes{
+	background-color: rgb(250, 125, 0);
+	transform: rotate(360deg);
+}
+
+.rbig:hover .inshapes{
+	background-color: white;
+	transform: rotate(360deg);
+}
+
+.rbig:hover .r4{
+	margin-top: -50px;
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 80px solid white;
+	transform: rotate(360deg);
 }
 
 .abox{
@@ -57,17 +117,19 @@ p{
 	width: 250px;
 	height: 250px;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.75s ease-out;
 }
 
 .a2{
 	position: absolute;
-	top: 75px;
+	top: 85px;
 	left: 410px;
 	width: 0;
 	height: 0;
-	border-top: 100px solid transparent;
+	border-top: 80px solid transparent;
 	border-bottom: 0px solid transparent;
-	border-right: 80px solid rgb(240, 0, 150);
+	border-right: 80px solid rgb(190, 70, 30);
+	transition: all 0.75s ease-out;
 }
 
 .a3{
@@ -76,7 +138,55 @@ p{
 	left: 410px;
 	width: 80px;
 	height: 80px;
-	background-color: rgb(240, 0, 150);
+	background-color: rgb(190, 70, 30);
+	transition: all 0.75s ease-out;
+}
+
+.a4{
+	position: absolute;
+	top: 220px;
+	left: 279px;
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.a5{
+	position: absolute;
+	top: 50px;
+	left: 279px;
+	width: 0;
+	height: 0;
+	border-right: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.abig:hover .whole{
+	margin-top: -50px;
+	transform: rotate(360deg);
+}
+
+.abig:hover .outshapes{
+	background-color: rgb(250, 125, 0);
+	transform: rotate(360deg);
+}
+
+.abig:hover .inshapes{
+	background-color: white;
+	transform: rotate(360deg);
+}
+
+.abig:hover .a2{
+	margin-top: -50px;
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-right: 80px solid white;
+	transform: rotate(360deg);
 }
 
 .nbox{
@@ -86,6 +196,7 @@ p{
 	width: 250px;
 	height: 250px;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.75s ease-out;
 }
 
 .n2{
@@ -96,7 +207,8 @@ p{
 	height: 0;
 	border-top: 80px solid transparent;
 	border-bottom: 0px solid transparent;
-	border-left: 82px solid rgb(0, 90, 200);
+	border-left: 82px solid rgb(240, 210, 50);
+	transition: all 0.75s ease-out;
 }
 
 .n3{
@@ -105,11 +217,63 @@ p{
 	left: 675px;
 	width: 0;
 	height: 0;
+	border-left: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 80px solid rgb(240, 210, 50);
+	transition: all 0.75s ease-out;
+}
+
+.n4{
+	position: absolute;
+	top: 220px;
+	left: 544px;
+	width: 0;
+	height: 0;
 	border-top: 80px solid transparent;
 	border-bottom: 0px solid transparent;
-	border-left: 80px solid rgb(0, 90, 200);
-	transform: rotate(180deg);
+	border-left: 80px solid white;
+	transition: all 0.75s ease-out;
+}
 
+.n5{
+	position: absolute;
+	top: 50px;
+	left: 544px;
+	width: 0;
+	height: 0;
+	border-right: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.nbig:hover .whole{
+	margin-top: -50px;
+	transform: rotate(360deg);
+}
+
+.nbig:hover .outshapes{
+	background-color: rgb(230, 230, 0);
+	transform: rotate(360deg);
+}
+
+.nbig:hover .inshapes{
+	background-color: white;
+	transform: rotate(360deg);
+}
+
+.nbig:hover .n2 {
+	border-left: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 82px solid rgb(230, 230, 0);
+	transform: rotate(360deg);
+}
+
+.nbig:hover .n3 {
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 80px solid rgb(230, 230, 0);
+	transform: rotate(360deg);
 }
 
 .gbox{
@@ -119,15 +283,17 @@ p{
 	width: 250px;
 	height: 250px;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.75s ease-out;
 }
 
 .g2{
 	position: absolute;
-	top: 125px;
+	top: 129px;
 	left: 940px;
 	width: 120px;
 	height: 30px;
-	background-color: rgb(180, 30, 140);
+	background-color: rgb(240, 210, 50);
+	transition: all 0.75s ease-out;
 }
 
 .g3{
@@ -136,16 +302,57 @@ p{
 	left: 940px;
 	width: 55px;
 	height: 70px;
-	background-color: rgb(180, 30, 140);
+	background-color: rgb(240, 210, 50);
+	transition: all 0.75s ease-out;
 }
 
 .g4{
 	position: absolute;
-	top: 190px;
+	top: 191px;
 	left: 940px;
 	width: 85px;
-	height: 40px;
-	background-color: rgb(180, 30, 140);
+	height: 30px;
+	background-color: rgb(240, 210, 50);
+	transition: all 0.75s ease-out;
+}
+
+.g5{
+	position: absolute;
+	top: 220px;
+	left: 809px;
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.g6{
+	position: absolute;
+	top: 50px;
+	left: 809px;
+	width: 0;
+	height: 0;
+	border-right: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.gbig:hover .whole{
+	margin-top: -50px;
+	transform: rotate(360deg);
+}
+
+.gbig:hover .outshapes{
+	background-color: rgb(230, 230, 0);
+	transform: rotate(360deg);
+}
+
+.gbig:hover .inshapes{
+	background-color: white;
+	transform: rotate(360deg);
 }
 
 .ebox{
@@ -155,25 +362,68 @@ p{
 	width: 250px;
 	height: 250px;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.75s ease-out;
 }
 
 .e2{
 	position: absolute;
-	top: 125px;
-	left: 1215px;
-	width: 110px;
+	top: 129px;
+	left: 1240px;
+	width: 85px;
 	height: 30px;
-	background-color: rgb(0, 150, 150);
+	background-color: rgb(220, 0, 50);
+	transition: all 0.75s ease-out;
 }
 
 .e3{
 	position: absolute;
-	top: 200px;
-	left: 1215px;
-	width: 110px;
+	top: 191px;
+	left: 1240px;
+	width: 85px;
 	height: 30px;
-	background-color: rgb(0, 150, 150);
+	background-color: rgb(220, 0, 50);
+	transition: all 0.75s ease-out;
 }
+
+.e4{
+	position: absolute;
+	top: 220px;
+	left: 1074px;
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.e5{
+	position: absolute;
+	top: 50px;
+	left: 1074px;
+	width: 0;
+	height: 0;
+	border-right: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.ebig:hover .whole{
+	margin-top: -50px;
+	transform: rotate(360deg);
+}
+
+.ebig:hover .outshapes{
+	background-color: rgb(250, 0, 0);
+	transform: rotate(360deg);
+}
+
+.ebig:hover .inshapes{
+	background-color: white;
+	transform: rotate(360deg);
+}
+
 
 .sbox{
 	position: absolute;
@@ -182,22 +432,64 @@ p{
 	width: 250px;
 	height: 250px;
 	background-color: rgb(0, 0, 0);
+	transition: all 0.75s ease-out;
 }
 
 .s2{
 	position: absolute;
-	top: 125px;
-	left: 1480px;
-	width: 110px;
+	top: 129px;
+	left: 1505px;
+	width: 85px;
 	height: 30px;
-	background-color: rgb(240, 30, 75);
+	background-color: rgb(220, 0, 50);
+	transition: all 0.75s ease-out;
 }
 
 .s3{
 	position: absolute;
-	top: 200px;
+	top: 191px;
 	left: 1340px;
-	width: 110px;
+	width: 155px;
 	height: 30px;
-	background-color: rgb(240, 30, 75);
+	background-color: rgb(220, 0, 50);
+	transition: all 0.75s ease-out;
+}
+
+.s4{
+	position: absolute;
+	top: 220px;
+	left: 1339px;
+	width: 0;
+	height: 0;
+	border-top: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-left: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.s5{
+	position: absolute;
+	top: 50px;
+	left: 1339px;
+	width: 0;
+	height: 0;
+	border-right: 80px solid transparent;
+	border-bottom: 0px solid transparent;
+	border-top: 80px solid white;
+	transition: all 0.75s ease-out;
+}
+
+.sbig:hover .whole{
+	margin-top: -50px;
+	transform: rotate(360deg);
+}
+
+.sbig:hover .outshapes{
+	background-color: rgb(220, 0, 50);
+	transform: rotate(360deg);
+}
+
+.sbig:hover .inshapes{
+	background-color: white;
+	transform: rotate(360deg);
 }
