@@ -1,0 +1,34 @@
+
+h1{
+	position: absolute;
+	font-family: 'Yeseva One', cursive;
+	font-size: 100px;
+	font-weight: 400px;
+	color: rgb(128,0,0);
+	top: 70px;
+	left: 90px;
+	transform: skew(-15deg);
+	transform: rotate(-20deg);
+}
+
+p{
+	position: absolute;
+	bottom: -10px;
+	left: 625px;
+	font-family: 'Indie Flower', cursive;
+	font-size: 19px;
+	line-height: 32px;
+	color: white;
+}
+
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("sunset.JPG");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
