@@ -1,0 +1,382 @@
+h1{
+	position: absolute;
+	font-family: 'Ubuntu', sans-serif;
+	left: 1130px;
+}
+
+.judd{
+	font-size: 300px;
+	font-weight: 400;
+}
+
+.exhibition{
+	top: 400px;
+	font-size: 136px;
+	font-weight: 550;
+}
+
+p{
+	position: absolute;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.date{
+	top: 555px;
+	left: 760px;
+	font-size: 88px;
+}
+
+.time{
+	top: 720px;
+	left: 813px;
+	font-size: 65px;
+}
+
+img{
+	position: absolute;
+}
+
+.photo{
+	height: 760.5px;
+	top: 253.5px;
+	left: 84px;
+}
+
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("background1.jpg");
+	background-size: contain;
+	background-position: center;
+	background-repeat: repeat;
+}
+
+.moma{
+	top: 910px;
+	left: 760px;
+	width: 340px;
+
+}
+
+.rule{
+	width: 372px;
+	height: 200px;
+	border-top: 5px solid black;
+	position: absolute;
+	top: 1137px;
+	left: 742px;
+}
+
+.rule2{
+	width: 372px;
+	height: 200px;
+	border-top: 5px solid black;
+	position: absolute;
+	top: 1012px;
+	left: 742px;
+}
+
+.location{
+	text-align: center;
+	font-size: 37px;
+	top: 1000px;
+	left: 760px;
+	color: white;
+}
+
+.donald{
+	font-size: 33px;
+	top: 1000px;
+	left: 260px;
+}
+
+.price{
+	font-size: 35px;
+	line-height: 52px;
+	top: 850px;
+	left: 1490px;
+}
+
+.members{
+	top: 853px;
+	left: 1310px;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+.nonmembers{
+	top: 905px;
+	left: 1225px;
+	font-size: 35px;
+	font-weight: 700;
+}
+
+@media (max-width: 414px) {
+
+	.background{
+		background-image: url("background2.jpg");
+		background-size: contain;
+		background-position: center;
+	}
+
+	.photo{
+		display: none;
+	}
+
+	.judd{
+		top: -64px;
+		left: 20px;
+		font-size: 170px;
+	}
+
+	.exhibition{
+		left: 20px;
+		top: 197px;
+		font-size: 50px;
+	}
+
+	.rule{
+		top: 366px;
+		left: 0px;
+		width: 277px;
+		height: 200px;
+		border-top: 3px solid black;
+	}
+
+	.rule2{
+		top: 441px;
+		left: 0px;
+		width: 277px;
+		height: 200px;
+		border-top: 3px solid black;
+	}
+
+	.date{
+		left: 15px;
+		top: 348px;
+		font-size: 28px;
+	}
+
+	.time{
+		left: 35px;
+		top: 388px;
+		font-size: 20px;
+	}
+
+	.moma{
+		width: 73px;
+		top: 525px;
+		left: 308px;
+	}
+
+	.location{
+		font-size: 12.5px;
+		top: 535px;
+		left: 288px;
+		color: black;
+	}
+
+	.price{
+		font-size: 12px;
+		line-height: 16px;
+		top: 562px;
+		left: 142px;
+	}
+
+	.members{
+		top: 563px;
+		left: 79px;
+		font-size: 12px;
+	}
+
+	.nonmembers{
+		top: 578px;
+		left: 50px;
+		font-size: 12px;
+	}
+	
+	.donald{
+	display: none;
+	}
+}
+
+@media (max-width: 375px) {
+
+	.background{
+		background-image: url("background2.jpg");
+		background-size: contain;
+		background-position: center;
+	}
+
+	.photo{
+		display: none;
+	}
+
+	.judd{
+		top: -63px;
+		left: 10px;
+		font-size: 160px;
+	}
+
+	.exhibition{
+		left: 10px;
+		top: 175px;
+		font-size: 48px;
+	}
+
+	.rule{
+		top: 331px;
+		left: 0px;
+		width: 251px;
+		height: 200px;
+		border-top: 3px solid black;
+	}
+
+	.rule2{
+		top: 398px;
+		left: 0px;
+		width: 251px;
+		height: 200px;
+		border-top: 3px solid black;
+	}
+
+	.date{
+		left: 15px;
+		top: 310px;
+		font-size: 28px;
+	}
+
+	.time{
+		left: 35px;
+		top: 350px;
+		font-size: 20px;
+	}
+
+	.moma{
+		width: 73px;
+		top: 475px;
+		left: 275px;
+	}
+
+	.location{
+		font-size: 12.5px;
+		top: 485px;
+		left: 255px;
+		color: black;
+	}
+
+	.price{
+		font-size: 12px;
+		line-height: 16px;
+		top: 505px;
+		left: 129px;
+	}
+
+	.members{
+		top: 505px;
+		left: 65px;
+		font-size: 12px;
+	}
+
+	.nonmembers{
+		top: 521px;
+		left: 37px;
+		font-size: 12px;
+	}
+	
+	.donald{
+	display: none;
+	}
+}
+
+@media (max-width: 320px) {
+
+	.background{
+		background-image: url("background2.jpg");
+		background-size: contain;
+		background-position: center;
+	}
+
+	.photo{
+		display: none;
+	}
+
+	.judd{
+		top: -45px;
+		left: 15px;
+		font-size: 130px;
+	}
+
+	.exhibition{
+		left: 15px;
+		top: 155px;
+		font-size: 38px;
+	}
+
+	.rule{
+		top: 283px;
+		left: 0px;
+		width: 214px;
+		height: 200px;
+		border-top: 3px solid black;
+	}
+
+	.rule2{
+		top: 339px;
+		left: 0px;
+		width: 214px;
+		height: 200px;
+		border-top: 3px solid black;
+	}
+
+	.date{
+		left: 15px;
+		top: 265px;
+		font-size: 23px;
+	}
+
+	.time{
+		left: 27px;
+		top: 297px;
+		font-size: 17px;
+	}
+
+	.moma{
+		width: 63px;
+		top: 405px;
+		left: 234px;
+	}
+
+	.location{
+		font-size: 11px;
+		top: 415px;
+		left: 215px;
+		color: black;
+	}
+
+	.price{
+		font-size: 11px;
+		line-height: 14px;
+		top: 430px;
+		left: 110px;
+	}
+
+	.members{
+		top: 430px;
+		left: 53px;
+		font-size: 11px;
+	}
+
+	.nonmembers{
+		top: 444px;
+		left: 27px;
+		font-size: 11px;
+	}
+
+	.donald{
+	display: none;
+	}
+}
