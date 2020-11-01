@@ -1,16 +1,16 @@
 h1{
 	position: absolute;
 	font-family: 'Ubuntu', sans-serif;
-	left: 1500px;
+	left: 1680px;
 }
 
 .box1{
 	position: absolute;
 	top: 251px;
-	left: 1464px;
-	width: 741px;
+	left: 1650px;
+	width: 742px;
 	height: 382px;
-	background-color: rgb(171, 171, 171);
+	background-color: rgb(196, 199, 201);
 }
 
 .box2{
@@ -19,16 +19,16 @@ h1{
 	left: 1095px;
 	width: 740px;
 	height: 510px;
-	background-color: rgb(171, 171, 171);
+	background-color: rgb(196, 199, 201);
 }
 
 .box3{
 	position: absolute;
 	top: 885px;
-	left: 1465px;
+	left: 1652px;
 	width: 740px;
-	height: 253px;
-	background-color: rgb(171, 171, 171);
+	height: 255px;
+	background-color: rgb(196, 199, 201);
 }
 
 .judd{
@@ -48,14 +48,14 @@ p{
 }
 
 .date{
-	top: 555px;
+	top: 580px;
 	left: 1110px;
 	font-size: 88px;
 }
 
 .time{
-	top: 720px;
-	left: 1170px;
+	top: 715px;
+	left: 1110px;
 	font-size: 65px;
 }
 
@@ -66,7 +66,7 @@ img{
 .photo{
 	height: 886px;
 	top: 253px;
-	left: 400px;
+	left: 266px;
 }
 
 .background{
@@ -82,54 +82,36 @@ img{
 }
 
 .moma{
-	top: 910px;
-	left: 1113px;
+	top: 915px;
+	left: 1115px;
 	width: 340px;
 
 }
 
-.rule{
-	width: 372px;
-	height: 200px;
-	border-top: 5px solid black;
-	position: absolute;
-	top: 1139px;
-	left: 1095px;
-}
-
-.rule2{
-	width: 372px;
-	height: 200px;
-	border-top: 5px solid black;
-	position: absolute;
-	top: 1012px;
-	left: 1095px;
-}
-
 .location{
-	text-align: center;
+	text-align: left;
 	font-size: 37px;
-	top: 1000px;
-	left: 1113px;
+	top: 990px;
+	left: 1115px;
 }
 
 .price{
-	font-size: 35px;
-	line-height: 52px;
-	top: 850px;
-	left: 1850px;
+	font-size: 30px;
+	line-height: 40px;
+	top: 880px;
+	left: 2100px;
 }
 
 .members{
-	top: 853px;
-	left: 1660px;
+	top: 872px;
+	left: 1930px;
 	font-size: 35px;
 	font-weight: 700;
 }
 
 .nonmembers{
-	top: 905px;
-	left: 1575px;
+	top: 913px;
+	left: 1845px;
 	font-size: 35px;
 	font-weight: 700;
 }
@@ -154,6 +136,7 @@ img{
 	.box3{
 	display: none;
 	}
+
 .background{
 	position: absolute;
 	top: 0;
@@ -161,7 +144,7 @@ img{
 	width: 100vw;
 	height: 100vh;
 	background-image: url("small.jpg");
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: repeat;
 	}
@@ -184,14 +167,14 @@ img{
 	}
 
 	.date{
-		top: 313px;
+		top: 343px;
 		left: 420px;
 		font-size: 48px;
 	}
 
 	.time{
-		top: 399px;
-		left: 450px;
+		top: 415px;
+		left: 420px;
 		font-size: 35px;
 	}
 
@@ -206,34 +189,16 @@ img{
 	}
 
 	.moma{
-		top: 505px;
+		top: 525px;
 		left: 418px;
 		width: 190px;
 
 	}
 
-	.rule{
-		width: 205px;
-		height: 200px;
-		border-top: 5px solid black;
-		position: absolute;
-		top: 560px;
-		left: 410px;
-	}
-
-	.rule2{
-		width: 205px;
-		height: 200px;
-		border-top: 5px solid black;
-		position: absolute;
-		top: 628px;
-		left: 410px;
-	}
-
 	.location{
 		text-align: center;
 		font-size: 20px;
-		top: 555px;
+		top: 570px;
 		left: 420px;
 	}
 
@@ -244,23 +209,23 @@ img{
 	}
 
 	.price{
-		font-size: 23px;
-		line-height: 28px;
-		top: 467px;
-		left: 825px;
+		font-size: 18px;
+		line-height: 25px;
+		top: 495px;
+		left: 870px;
 	}
 
 	.members{
-		top: 467px;
-		left: 705px;
-		font-size: 23px;
+		top: 495px;
+		left: 774px;
+		font-size: 18px;
 		font-weight: 700;
 	}
 
 	.nonmembers{
-		top: 495px;
-		left: 648px;
-		font-size: 23px;
+		top: 523px;
+		left: 730px;
+		font-size: 18px;
 		font-weight: 700;
 	}
 }
@@ -278,75 +243,67 @@ img{
 	}
 
 	.judd{
-		top: -64px;
+		top: 10px;
 		left: 20px;
 		font-size: 170px;
 	}
 
 	.exhibition{
 		left: 20px;
-		top: 197px;
-		font-size: 50px;
+		top: 240px;
+		font-size: 80px;
 	}
 
 	.rule{
-		top: 366px;
-		left: 0px;
-		width: 277px;
-		height: 200px;
-		border-top: 3px solid black;
+		display: none;
 	}
 
 	.rule2{
-		top: 441px;
-		left: 0px;
-		width: 277px;
-		height: 200px;
-		border-top: 3px solid black;
+		display: none;
 	}
 
 	.date{
-		left: 15px;
-		top: 348px;
-		font-size: 28px;
+		left: 10px;
+		top: 418px;
+		font-size: 32px;
 	}
 
 	.time{
-		left: 35px;
-		top: 388px;
-		font-size: 20px;
+		left: 10px;
+		top: 470px;
+		font-size: 25px;
 	}
 
 	.moma{
-		width: 73px;
+		width: 78px;
 		top: 525px;
-		left: 308px;
+		left: 305px;
 	}
 
 	.location{
-		font-size: 12.5px;
+		font-size: 14px;
 		top: 535px;
-		left: 288px;
+		left: 280px;
 		color: black;
 	}
 
 	.price{
-		font-size: 12px;
-		line-height: 16px;
-		top: 562px;
+		font-size: 17px;
+		line-height: 25px;
+		top: 580px;
 		left: 142px;
 	}
 
 	.members{
-		top: 563px;
-		left: 79px;
-		font-size: 12px;
+		top: 582px;
+		left: 52px;
+		font-size: 17px;
 	}
 
 	.nonmembers{
-		top: 578px;
-		left: 50px;
-		font-size: 12px;
+		top: 607px;
+		left: 10px;
+		font-size: 17px;
 	}
 	
 	.donald{
@@ -367,75 +324,69 @@ img{
 	}
 
 	.judd{
-		top: -63px;
-		left: 10px;
-		font-size: 160px;
+		top: -10px;
+		left: 0px;
+		font-size: 170px;
+		transform: scale(.9);
 	}
 
 	.exhibition{
-		left: 10px;
-		top: 175px;
-		font-size: 48px;
-	}
-
-	.rule{
-		top: 331px;
 		left: 0px;
-		width: 251px;
-		height: 200px;
-		border-top: 3px solid black;
-	}
-
-	.rule2{
-		top: 398px;
-		left: 0px;
-		width: 251px;
-		height: 200px;
-		border-top: 3px solid black;
+		top: 210px;
+		font-size: 80px;
+		transform: scale(.9);
 	}
 
 	.date{
-		left: 15px;
-		top: 310px;
-		font-size: 28px;
+		left: 0px;
+		top: 370px;
+		font-size: 32px;
+		transform: scale(.9);
 	}
 
 	.time{
-		left: 35px;
-		top: 350px;
-		font-size: 20px;
+		left: 0px;
+		top: 420px;
+		font-size: 25px;
+		transform: scale(.9);
 	}
 
 	.moma{
-		width: 73px;
-		top: 475px;
+		width: 78px;
+		top: 455px;
 		left: 275px;
+		transform: scale(1.1);
 	}
 
 	.location{
-		font-size: 12.5px;
-		top: 485px;
-		left: 255px;
+		font-size: 16px;
+		top: 465px;
+		left: 265px;
 		color: black;
+		text-align: left;
+		transform: scale(.9);
 	}
 
 	.price{
-		font-size: 12px;
-		line-height: 16px;
-		top: 505px;
-		left: 129px;
+		font-size: 17px;
+		line-height: 25px;
+		top: 520px;
+		left: 122px;
+		transform: scale(.9);
 	}
 
 	.members{
-		top: 505px;
-		left: 65px;
-		font-size: 12px;
+		top: 527px;
+		left: 50px;
+		font-size: 17px;
+		transform: scale(.9);
 	}
 
 	.nonmembers{
-		top: 521px;
-		left: 37px;
-		font-size: 12px;
+		top: 550px;
+		left: 10px;
+		font-size: 17px;
+		transform: scale(.9);
 	}
 	
 	.donald{
@@ -456,75 +407,59 @@ img{
 	}
 
 	.judd{
-		top: -45px;
+		top: 10px;
 		left: 15px;
 		font-size: 130px;
 	}
 
 	.exhibition{
 		left: 15px;
-		top: 155px;
-		font-size: 38px;
-	}
-
-	.rule{
-		top: 283px;
-		left: 0px;
-		width: 214px;
-		height: 200px;
-		border-top: 3px solid black;
-	}
-
-	.rule2{
-		top: 339px;
-		left: 0px;
-		width: 214px;
-		height: 200px;
-		border-top: 3px solid black;
+		top: 200px;
+		font-size: 42px;
 	}
 
 	.date{
 		left: 15px;
-		top: 265px;
+		top: 325px;
 		font-size: 23px;
 	}
 
 	.time{
-		left: 27px;
-		top: 297px;
+		left: 15px;
+		top: 357px;
 		font-size: 17px;
 	}
 
 	.moma{
-		width: 63px;
-		top: 405px;
-		left: 234px;
+		width: 70px;
+		top: 385px;
+		left: 225px;
 	}
 
 	.location{
-		font-size: 11px;
-		top: 415px;
+		font-size: 13px;
+		top: 395px;
 		left: 215px;
 		color: black;
 	}
 
 	.price{
-		font-size: 11px;
-		line-height: 14px;
-		top: 430px;
-		left: 110px;
+		font-size: 15px;
+		line-height: 24px;
+		top: 435px;
+		left: 103px;
 	}
 
 	.members{
-		top: 430px;
-		left: 53px;
-		font-size: 11px;
+		top: 442px;
+		left: 40px;
+		font-size: 15px;
 	}
 
 	.nonmembers{
-		top: 444px;
-		left: 27px;
-		font-size: 11px;
+		top: 464px;
+		left: 5px;
+		font-size: 15px;
 	}
 
 	.donald{
