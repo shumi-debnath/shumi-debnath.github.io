@@ -1,0 +1,404 @@
+@font-face {
+  font-family: OneDirection;
+  src: url(OneDirection.ttf);
+}
+
+body{
+
+	background-color: rgb(148, 15, 40);
+
+}
+
+h1{
+	position: absolute;
+	font-family: OneDirection, sans-serif;
+	color: white;
+}
+
+.OneD{
+	bottom: 140px;
+	left: 700px;
+	font-size: 235px;
+}
+
+.Tenyear{
+	bottom: 50px;
+	left: 700px;
+	font-size: 150px;
+}
+
+h2{
+	position: absolute;
+	font-family: Courier, mono;
+	color: white;
+ 	font-weight: 700;
+}
+
+.year{
+	left: 512px;
+ 	bottom: -300px;
+ 	font-size: 150px;
+
+}
+
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("Homepage1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.background:hover {
+	background-image: url("homepage2.jpg");
+}
+
+.navbar{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100vw;
+	height: 7vh;
+	background-color: rgb(255, 0, 42);
+}
+
+.navbar1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 7vh;
+	background-color: rgb(255, 0, 42);
+}
+
+.logo{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+	height: 5vh;
+}
+
+.logo1{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 5vh;
+}
+
+.one{
+	position: absolute;
+	bottom: 15px;
+	left: 1125px;
+	height: 4vh;
+}
+
+.one1{
+	position: absolute;
+	top: 15px;
+	left: 1125px;
+	height: 4vh;
+}
+
+.louis{
+	position: absolute;
+	bottom: 15px;
+	left: 1500px;
+	height: 4vh;
+}
+
+.louis1{
+	position: absolute;
+	top: 15px;
+	left: 1500px;
+	height: 4vh;
+}
+
+.harry{
+	position: absolute;
+	bottom: 10px;
+	left: 1650px;
+	height: 5vh;
+}
+
+.harry1{
+	position: absolute;
+	top: 10px;
+	left: 1650px;
+	height: 5vh;
+}
+
+.niall{
+	position: absolute;
+	bottom: 15px;
+	left: 1800px;
+	height: 4.5vh;
+}
+
+.niall1{
+	position: absolute;
+	top: 15px;
+	left: 1800px;
+	height: 4.5vh;
+}
+
+.liam{
+	position: absolute;
+	bottom: 17px;
+	left: 1950px;
+	height: 4vh;
+}
+
+.liam1{
+	position: absolute;
+	top: 17px;
+	left: 1950px;
+	height: 4vh;
+}
+
+.zayn{
+	position: absolute;
+	bottom: 15px;
+	left: 2120px;
+	height: 5vh;
+}
+
+.zayn1{
+	position: absolute;
+	top: 15px;
+	left: 2120px;
+	height: 5vh;
+}
+
+.logos{
+	position: absolute;
+	bottom: 0;
+	left: 350px;
+}
+
+.logos1{
+	position: absolute;
+	top: 0;
+	left: 350px;
+}
+
+.inline-block {
+  position: relative;
+  	width: 480px;
+	height: 275px;
+  background-color: rgb(32, 180, 63);
+  position: center;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  bottom: -1450px;
+  left: 25px;
+}
+
+.auditionlouis{
+	background-image: url("auditionlouis.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.auditionlouis:hover {
+	background-image: url("auditionlouis.gif");
+}
+
+.auditionharry{
+	background-image: url("auditionharry1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.auditionharry:hover {
+	background-image: url("harryaudition.gif");
+}
+
+.auditionniall{
+	background-image: url("auditionniall.jpeg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.auditionniall:hover {
+	background-image: url("auditionniall.gif");
+}
+
+.auditionliam{
+	background-image: url("auditionliam.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.auditionliam:hover {
+	background-image: url("auditionliam.gif");
+}
+
+
+.auditionzayn{
+	background-image: url("auditionzayn.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.auditionzayn:hover {
+	background-image: url("auditionzayn.gif");
+}
+
+.dance{
+	background-image: url("dancing.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.dance:hover {
+	background-image: url("dancing1.gif");
+}
+
+.sadharry{
+	background-image: url("sadharry.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.sadharry:hover {
+	background-image: url("sadharry.gif");
+}
+
+.sadniall{
+	background-image: url("sadniall.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.sadniall:hover {
+	background-image: url("sadniall.gif");
+}
+
+.sadliam{
+	background-image: url("sadliam.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.sadliam:hover {
+	background-image: url("sadliam.gif");
+}
+
+.formation{
+	background-image: url("onedirectionform.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: all 1s;
+}
+
+.formation:hover {
+	background-image: url("onedirectionform.gif");
+}
+
+
+@media (max-width: 1024px){
+	
+
+	.year{
+		left: 65px;
+	 	bottom: -200px;
+	 	font-size: 85px;
+	}
+
+	.OneD{
+		bottom: 80px;
+		left: 170px;
+		font-size: 130px;
+	}
+
+	.Tenyear{
+		bottom: 30px;
+		left: 170px;
+		font-size: 85px;
+	}
+
+	.inline-block {
+	  position: relative;
+	  	width: 180px;
+		height: 103px;
+	  background-color: rgb(32, 180, 63);
+	  position: center;
+	  display: inline-block;
+	  margin-right: 15px;
+	  margin-bottom: 15px;
+	  bottom: -850px;
+	  left: 15px;
+	}
+
+	.one{
+		position: absolute;
+		bottom: 10px;
+		left: 100px;
+		height: 4vh;
+	}
+
+	.louis{
+		position: absolute;
+		bottom: 10px;
+		left: 300px;
+		height: 4vh;
+	}
+
+	.harry{
+		position: absolute;
+		bottom: 5px;
+		left: 375px;
+		height: 5vh;
+	}
+
+	.niall{
+		position: absolute;
+		bottom: 10px;
+		left: 450px;
+		height: 4.5vh;
+	}
+
+	.liam{
+		position: absolute;
+		bottom: 12px;
+		left: 525px;
+		height: 4vh;
+	}
+
+	.zayn{
+		position: absolute;
+		bottom: 10px;
+		left: 625px;
+		height: 5vh;
+	}
+
+	.logos{
+		position: absolute;
+		bottom: 0;
+	}
+}
