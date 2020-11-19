@@ -1,0 +1,1102 @@
+font-face {
+  font-family: OneDirection;
+  src: url(OneDirection.ttf);
+}
+
+body{
+
+  background-color: rgb(148, 15, 40);
+
+}
+
+.navbar1{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 7vh;
+  background-color: rgb(255, 0, 42);
+  z-index: 120;
+}
+
+.logo1{
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  height: 5vh;
+}
+
+.one1{
+ position: fixed;
+  background-image: url("onedirectionlogo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 5px;
+  left: 1200px;
+  width: 9vw;
+  height: 6vh;
+transition: all 1s;
+}
+
+.one1:hover {
+  background-image: url("1dlogo.png");
+}
+
+.louis1{
+  position: fixed;
+  background-image: url("louislogo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 15px;
+  left: 1500px;
+  width: 3vw;
+  height: 4vh;
+  transition: all 1s;
+}
+
+.louis1:hover {
+  background-image: url("louis1.png");
+  width: 4vw;
+  left: 1480px;
+}
+
+.harry1{
+  position: fixed;
+  background-image: url("harrylogo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 5px;
+  left: 1640px;
+  width: 3vw;
+  height: 6vh;
+  transition: all 1s;
+}
+
+.harry1:hover {
+  background-image: url("harry1.png");
+}
+
+.niall1{
+  position: fixed;
+  background-image: url("nialllogo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 15px;
+  left: 1800px;
+  height: 5vh;
+  width: 3vw;
+  transition: all 1s;
+}
+
+.niall1:hover {
+  background-image: url("niall1.png");
+  transform: scale(1.1);
+}
+
+.liam1{
+  position: fixed;
+  background-image: url("liamlogo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 17px;
+  left: 1950px;
+  height: 4vh;
+  width: 4vw;
+  transition: all 1s;
+}
+
+.liam1:hover {
+  background-image: url("liam1.png");
+  transform: scale(1.1);
+}
+
+.zayn1{
+position: fixed;
+  background-image: url("zaynlogo.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  top: 15px;
+  left: 2120px;
+  height: 5vh;
+  width: 4vw;
+  transition: all 1s;
+}
+
+.zayn1:hover {
+  background-image: url("zayn1.png");
+  transform: scale(1);
+}
+
+.logos1{
+position: fixed;
+  top: 0;
+  left: 350px;
+}
+
+h1{
+  position: absolute;
+  font-family: OneDirection, sans-serif;
+  color: white;
+}
+
+.horan{
+  font-size: 200px;
+  left: 750px;
+  top: 100px;
+}
+
+h2{
+  position: absolute;
+  font-family: 'Goldman', cursive;
+  color: white;
+  font-weight: 700;
+}
+
+img{
+  position: absolute;
+}
+
+.young{
+  transform: scale(.7);
+  top: -40px;
+  left: -40px;
+}
+
+.old{
+  transform: scale(.8);
+  top: 50px;
+  left: 2080px;
+}
+
+.inline-block {
+  position: relative;
+  width: 397px;
+  height: 397px;
+  background-color: rgb(182, 30, 63);
+  position: center;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  top: 500px;
+  left: 25px;
+  transition: all 1s;
+}
+
+.XfactorNiall{
+  background-image: url("xfactorniall.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.XfactorNiall:hover {
+  background-image: url("niallx.gif");
+  background-position: center;
+}
+
+.UANNiall{
+  background-image: url("Uanniall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.UANNiall:hover {
+  background-image: url("niallmaybe.gif");
+  background-position: left;
+}
+
+.TMHNiall{
+  background-image: url("TMHniall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.TMHNiall:hover {
+  background-image: url("niallicarly.gif");
+}
+
+.MMNiall{
+  background-image: url("MMniall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MMNiall:hover {
+  background-image: url("2013niall.gif");
+}
+
+.FourNiall{
+  background-image: url("Fourniall.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.FourNiall:hover {
+  background-image: url("four.gif");
+}
+
+.MITAMNiall{
+  background-image: url("MITAMniall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.MITAMNiall:hover {
+  background-image: url("2015niall.txt");
+}
+
+.afterniall{
+  background-image: url("2016niall.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.afterniall:hover {
+  background-image: url("2016niall.gif");
+  background-position: center;
+}
+
+.FlickerNiall{
+  background-image: url("flickerniall.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.FlickerNiall:hover {
+  background-image: url("2017niall.gif");
+  background-position: left;
+}
+
+.TourNiall{
+  background-image: url("2018niall.jpeg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+}
+
+.TourNiall:hover {
+  background-image: url("2018niall.gif");
+  background-position: center;
+}
+
+.rockniall{
+  background-image: url("2019niall.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.rockniall:hover {
+  background-image: url("2019niall.gif");
+}
+
+.HeartbreakNiall{
+  background-image: url("heartbreakniall.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.HeartbreakNiall:hover {
+  background-image: url("heartbreakniall.gif");
+}
+
+.evolution{
+  background-image: url("niallevolution.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.evolution:hover {
+  background-image: url("beforeafterniall.gif");
+}
+
+iframe {
+  display: none;
+  position: absolute;
+  transition: all 1s;
+}
+
+.flickeralbum{
+  font-size: 100px;
+  left: 1100px;
+  top: 1520px;
+}
+
+.inline-block1 {
+  position: relative;
+  width: 450px;
+  height: 550px;
+  background-color: rgb(182, 30, 63);
+  position: center;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  top: 900px;
+  left: 100px;
+  transition: all 1s;
+  background-image: url("flicker.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.loose:hover .loosesong {
+  display: block;
+}
+
+.loose:after {
+  position: absolute;
+  content: "1. On The Loose";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.town:hover .townsong {
+  display: block;
+}
+
+.town:after {
+  position: absolute;
+  content: "2. This Town";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.blind:hover .blindsong {
+  display: block;
+}
+
+.blind:after {
+  position: absolute;
+  content: "3. Seeing Blind ft. Maren Morris";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.hands:hover .handssong {
+  display: block;
+}
+
+.hands:after {
+  position: absolute;
+  content: "4. Slow Hands";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.ask:hover .asksong {
+  display: block;
+}
+
+.ask:after {
+  position: absolute;
+  content: "5. Too Much to Ask";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.houses:hover .housessong {
+  display: block;
+}
+
+.houses:after {
+  position: absolute;
+  content: "6. Paper Houses";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.alone:hover .alonesong {
+  display: block;
+}
+
+.alone:after {
+  position: absolute;
+  content: "7. Since We're Alone";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.flicker:hover .flickersong {
+  display: block;
+}
+
+.flicker:after {
+  position: absolute;
+  content: "8. Flicker";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.fire:hover .firesong {
+  display: block;
+}
+
+.fire:after {
+  position: absolute;
+  content: "9. Fire Away";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.me:hover .mesong {
+  display: block;
+}
+
+.me:after {
+  position: absolute;
+  content: "10. You and Me";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.own:hover .ownsong {
+  display: block;
+}
+
+.own:after {
+  position: absolute;
+  content: "11. On My Own";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.mirrors:hover .mirrorssong {
+  display: block;
+}
+
+.mirrors:after {
+  position: absolute;
+  content: "12. Mirrors";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.tide:hover .tidesong {
+  display: block;
+}
+
+.tide:after {
+  position: absolute;
+  content: "13.  The Tide";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.heartbreakalbum{
+  font-size: 100px;
+  left: 700px;
+  top: 3550px;
+}
+
+.inline-block2 {
+  position: relative;
+  width: 450px;
+  height: 550px;
+  background-color: rgb(182, 30, 63);
+  position: center;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  top: 1200px;
+  left: 100px;
+  transition: all 1s;
+  background-image: url("heartbreak.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.weather:hover .weathersong {
+  display: block;
+}
+
+.weather:after {
+  position: absolute;
+  content: "1. Heartbreak Weather";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.bw:hover .bwsong {
+  display: block;
+}
+
+.bw:after {
+  position: absolute;
+  content: "2. Black and White";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.patience:hover .patiencesong {
+  display: block;
+}
+
+.patience:after {
+  position: absolute;
+  content: "3. Dear Patience";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.rules:hover .rulessong {
+  display: block;
+}
+
+.rules:after {
+  position: absolute;
+  content: "4. Bend The Rules";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.talk:hover .talksong {
+  display: block;
+}
+
+.talk:after {
+  position: absolute;
+  content: "5. Small Talk";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.meet:hover .meetsong {
+  display: block;
+}
+
+.meet:after {
+  position: absolute;
+  content: "6. Nice To Meet Ya";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.love:hover .lovesong {
+  display: block;
+}
+
+.love:after {
+  position: absolute;
+  content: "7. Put A Little Love On Me";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.arms:hover .armssong {
+  display: block;
+}
+
+.arms:after {
+  position: absolute;
+  content: "8. Arms Of A Stranger";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.everywhere:hover .everywheresong {
+  display: block;
+}
+
+.everywhere:after {
+  position: absolute;
+  content: "9. Everywhere";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.cross:hover .crosssong {
+  display: block;
+}
+
+.cross:after {
+  position: absolute;
+  content: "10. Cross Your Mind";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.angel:hover .angelsong {
+  display: block;
+}
+
+.angel:after {
+  position: absolute;
+  content: "11. New Angel";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.judgement:hover .judgementsong {
+  display: block;
+}
+
+.judgement:after {
+  position: absolute;
+  content: "12. No Judgement";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.francisco:hover .franciscosong {
+  display: block;
+}
+
+.francisco:after {
+  position: absolute;
+  content: "13.  San Francisco";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.still:hover .stillsong {
+  display: block;
+}
+
+.still:after {
+  position: absolute;
+  content: "14.  Still";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  color: white;
+}
+
+.orchestra{
+  font-size: 100px;
+  left: 600px;
+  top: 5550px;
+  text-align: center;
+}
+
+.inline-block3 {
+  position: relative;
+  width: 450px;
+  height: 550px;
+  background-color: rgb(182, 30, 63);
+  position: center;
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  top: 1600px;
+  left: 100px;
+  transition: all 1s;
+  background-image: url("FlickerRTEConcert.jpg");
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.tideRTE:hover .tideRTEsong {
+  display: block;
+}
+
+.tideRTE:after {
+  position: absolute;
+  content: "1. The Tide ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.townRTE:hover .townRTEsong {
+  display: block;
+}
+
+.townRTE:after {
+  position: absolute;
+  content: "2. This Town ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.askRTE:hover .askRTEsong {
+  display: block;
+}
+
+.askRTE:after {
+  position: absolute;
+  content: "3. To Much To Ask ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.houseRTE:hover .houseRTEsong {
+  display: block;
+}
+
+.houseRTE:after {
+  position: absolute;
+  content: "4. Paper Houses ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.youRTE:hover .youRTEsong {
+  display: block;
+}
+
+.youRTE:after {
+  position: absolute;
+  content: "5. You And Me ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.seeingRTE:hover .seeingRTEsong {
+  display: block;
+}
+
+.seeingRTE:after {
+  position: absolute;
+  content: "6. Seeing Blind ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.awayRTE:hover .awayRTEsong {
+  display: block;
+}
+
+.awayRTE:after {
+  position: absolute;
+  content: "7. Fire Away ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.longRTE:hover .longRTEsong {
+  display: block;
+}
+
+.longRTE:after {
+  position: absolute;
+  content: "8. So Long ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+.flickerRTE:hover .flickerRTEsong {
+  display: block;
+}
+
+.flickerRTE:after {
+  position: absolute;
+  content: "9. Flicker ft. The RTE Orchestra LIVE";
+  bottom: 30px;
+  left: 20px;
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  color: white;
+}
+
+@media (max-width: 1024px){
+  .navbar1{
+    position: fixed;
+  }
+
+  .one1{
+    position: fixed;
+    top: 10px;
+    left: 470px;
+    height: 4vh;
+  }
+
+  .louis1{
+    position: fixed;
+    top: 10px;
+    left: 600px;
+    height: 4vh;
+  }
+
+  .louis1:hover {
+    left: 600px;
+  }
+
+  .harry1{
+    position: fixed;
+    top: 5px;
+    left: 675px;
+    height: 5vh;
+  }
+
+  .niall1{
+    position: fixed;
+    top: 7px;
+    left: 750px;
+    height: 5vh;
+  }
+
+  .liam1{
+    position: fixed;
+    top: 10px;
+    left: 825px;
+    height: 4vh;
+  }
+
+  .zayn1{
+    position: fixed;
+    top: 8px;
+    left: 920px;
+    height: 5vh;
+  }
+
+    .horan{
+    font-size: 80px;
+    left: 250px;
+    top: 50px;
+    }
+
+    .young{
+      transform: scale(.3);
+      top: -225px;
+      left: -163px;
+    }
+
+    .old{
+      transform: scale(.3);
+      top: -110px;
+      left: 670px;
+    }
+
+    .inline-block {
+    position: relative;
+    width: 147px;
+    height: 147px;
+    background-color: rgb(32, 180, 63);
+    position: center;
+    display: inline-block;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    top: 200px;
+    left: 15px;
+  }
+
+    .flickeralbum{
+    font-size: 70px;
+    top: 630px;
+    left: 400px
+  }
+
+    .inline-block1 {
+    position: relative;
+    width: 180px;
+    height: 230px;
+    left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    top: 450px;
+  }
+
+.heartbreakalbum{
+    font-size: 70px;
+    top: 1570px;
+    left: 100px
+  }
+
+   .inline-block2 {
+    position: relative;
+    width: 180px;
+    height: 230px;
+    left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    top: 650px;
+  }
+
+.orchestra{
+    font-size: 60px;
+    top: 2470px;
+    left: 70px
+  }
+
+   .inline-block3 {
+    position: relative;
+    width: 180px;
+    height: 230px;
+    left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    top: 850px;
+  }
+
+  .album1{
+    width: 180px;
+    height: 180px;
+  }
+
+    .all1:after {
+    bottom: 5px;
+    left: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .all111:after {
+    bottom: 5px;
+    left: 10px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .all11:after {
+    bottom: 15px;
+    left: 10px;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
