@@ -1,0 +1,336 @@
+.day {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	animation-name: anim1;
+	animation-duration: 15s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+
+.hour {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100vw;
+  height: 6vh;
+  background-color: rgb(238, 52, 51);
+  animation-name: animationa;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.hour1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100vw;
+  height: 6vh;
+  background-color: rgb(238, 52, 51);
+  animation-name: animationa;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.hour2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100vw;
+  height: 6vh;
+  background-color: rgb(238, 52, 51);
+  animation-name: animationa;
+  animation-duration: 30s;
+  animation-fill-mode: forwards;
+  animation-delay: 20s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.minute {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 3vh;
+  background-color: rgb(162, 164, 127);
+  animation-name: animationc;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.minute1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 3vh;
+  background-color: rgb(162, 164, 127);
+  animation-name: animationc;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  animation-delay: 5s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.minute2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 3vh;
+  background-color: rgb(162, 164, 127);
+  animation-name: animationc;
+  animation-duration: 15s;
+  animation-fill-mode: forwards;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.second {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1vw;
+  height: 100vh;
+  background-color: rgb(231, 186, 118);
+  animation-name: animationb;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.second1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1vw;
+  height: 100vh;
+  background-color: rgb(231, 186, 118);
+  animation-name: animationb;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+.second2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1vw;
+  height: 100vh;
+  background-color: rgb(231, 186, 118);
+  animation-name: animationb;
+  animation-duration: 9s;
+  animation-fill-mode: forwards;
+  animation-delay: 6s;
+  animation-iteration-count: infinite;
+  transition: all 1s;
+}
+
+.snooze{
+  position: absolute;
+  left: 65vw;
+  top: 25vh;
+  width: 28vw;
+  height: 55vh;
+  background-color: red;
+  opacity: 0;
+  transition: all 1s;
+}
+
+@keyframes animationa {
+  0% {
+    top: 0;
+  }
+
+  100% {
+   top: 100vh;
+  }
+}
+
+@keyframes animationb {
+  0% {
+    left: 0px;
+  }
+
+  100% {
+   left: 100vw;
+  }
+}
+
+@keyframes animationc {
+  0% {
+    top: 100vh;
+  }
+
+  100% {
+   top: 0;
+  }
+}
+
+@keyframes anim1 {
+	
+	0% {
+		background-color: rgb(152, 201, 246); 
+	}
+
+	25% {
+		background-color: rgb(84, 120, 156); 
+	}
+
+	50% {
+		background-color: rgb(11, 35, 61); 
+	}
+
+	75% {
+		background-color: rgb(84, 120, 156); 
+	}
+
+	100% {
+		background-color: rgb(152, 201, 246); 
+	}
+}
+
+.hour.alarm {
+  top: 10vh !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  background-color: rgb(231, 186, 118) !important;
+}
+
+.hour1.alarm {
+  top: 65vh !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0s !important;
+  background-color: rgb(231, 186, 118) !important;
+}
+
+.hour2.alarm {
+  top: 94vh !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-delay: 0s !important;
+  animation-duration: 1s;
+  background-color: rgb(231, 186, 118) !important;
+}
+
+.minute.alarm {
+  top: 3vh !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+}
+
+.minute1.alarm {
+  top: 25vh !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0s !important;
+}
+
+.minute2.alarm {
+  top: 77vh !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-delay: 0s !important;
+  animation-duration: 1s;
+}
+
+.second.alarm {
+  left: 3vw !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+   background-color: rgb(11, 35, 61) !important;
+}
+
+.second1.alarm {
+  left: 65vw !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-duration: 1s;
+  animation-delay: 0s !important;
+   background-color: rgb(11, 35, 61) !important;
+}
+
+.second2.alarm {
+  left: 93vw !important;
+  opacity: 0;
+  animation-name: alarmclock;
+  animation-iteration-count: 1;
+  animation-delay: 0s !important;
+  animation-duration: 1s;
+   background-color: rgb(11, 35, 61) !important;
+}
+
+.snooze.alarm {
+  opacity: 0;
+  animation-name: snoozealarm;
+  background-color: maroon;
+  animation-iteration-count: 3;
+  animation-duration: .5s;
+  animation-delay: 5s;
+}
+
+.snooze.alarm:hover {
+  opacity: 1;
+}
+
+.day.alarm{ 
+  background-color: rgb(255, 52, 51)!important;;
+}
+
+@keyframes alarmclock {
+
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes snoozealarm {
+
+  0%{
+    opacity: 0;
+  }
+
+  50%{
+    opacity: 1;
+  }
+
+  100%{
+    opacity: 0;
+  }
+}
