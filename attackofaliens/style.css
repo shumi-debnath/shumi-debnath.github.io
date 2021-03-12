@@ -70,9 +70,9 @@ body {
 .hero {
   position: absolute;
   bottom: 80px;
-  left: 400px;
-  width: 300px;
-  height: 300px;
+  left: 325px;
+  width: 370px;
+  height: 370px;
   background-image: url("./img/idling-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
@@ -99,22 +99,22 @@ body {
 .hero.jumping {
   background-image: url("./img/jumping-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 1000ms;
+  animation-duration: 600ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .hero.doing-action {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 600ms;  /* set to same number in initialize() as well or it will look weird */
+  animation-duration: 1100ms;  /* set to same number in initialize() as well or it will look weird */
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .npc {
   position: absolute;
-  width: 170px;
-  height: 170px;
-  bottom: 490px;
+  width: 160px;
+  height: 160px;
+  bottom: 70px;
   background-image: url("./img/npc-sprite.png");
   background-size: cover;
   animation-name: spriteSheet;
