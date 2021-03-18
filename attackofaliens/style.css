@@ -47,7 +47,9 @@ body {
   height: 40px;
   line-height: 40px;
   border-radius: 50%;
-  background-color: rgb(122, 200, 11);
+  background: rgb(122,200,11);
+	background: radial-gradient(circle, rgba(122,200,11,1) 0%, rgba(0,186,57,1) 80%);
+  border: 1px solid #006832;
   color: white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: bold;
@@ -61,7 +63,7 @@ body {
   margin: auto;
   width: 1024px;
   height: 748px;
-  background-image: url("./img/background.png");
+  background-image: url("./img/background.gif");
   background-size: contain;
   background-repeat: no-repeat;
   pointer-events: none;
@@ -71,8 +73,8 @@ body {
   position: absolute;
   bottom: 80px;
   left: 325px;
-  width: 370px;
-  height: 370px;
+  width: 420px;
+  height: 420px;
   background-image: url("./img/idling-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1000ms;
@@ -107,7 +109,7 @@ body {
   background-image: url("./img/action-sprite.png");
   animation-name: spriteSheet;
   animation-duration: 1100ms;  /* set to same number in initialize() as well or it will look weird */
-  animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
+  animation-timing-function: steps(5); /* number of frames in sprite (not counting the final blank space) */
 }
 
 .npc {
@@ -125,8 +127,10 @@ body {
 }
 
 .npc.was-interacted {
-  opacity: 0;
-  transition: opacity 400ms linear;
+	background-image: url("./img/npc-sprite-after.png");
+	bottom: 0;
+	opacity: 0;
+  transition: bottom 400ms linear, opacity 1000ms linear;
 }
 
 .preload-image {
